@@ -68,7 +68,7 @@ header {
 }
 ul {
     float: right;
-    width: 30%;
+    width: 20%;
     height: 100vh;
     background: #2c3e50;
     position: absolute;
@@ -87,13 +87,15 @@ header ul li a{
     font-size: 1.3rem;
     line-height: 2rem;
 }
+header ul li:hover a{
+    color: #2384df;
+}
 .checkbtn {
     float: right;
     font-size: 28px;
     font-weight: 100;
     line-height: 80px;
     cursor: pointer;
-
 }
 .fas:hover {
    color: #654aff; /* I cant't apply hover effect */
@@ -557,9 +559,14 @@ footer .social-icon{
     padding: 15px;
 }
 
-footer .social-icon span{
+footer .social-icon a{
     font-size: 2rem;
     padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+footer .social-icon a:hover {
+    color: #938db6;
 }
 footer hr {
     border: 9px solid white;
