@@ -238,14 +238,11 @@ header ul li a{
     margin: 60px 40px;
 }
 .virtual-reality .virtual-reality-img{
-    
     height: auto;
-    flex-basis: 40%;
-   
-    background: url('/Images/dfdfdffff-min.jpg');
+    width: 40%;
+    background-image: url('Images/dfdfdffff-min.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 
 .virtual-reality .virtual-reality-text{
