@@ -126,9 +126,12 @@ header ul li a{
 }
 .headsets-text hr {
     border: 2px solid #654aff;
-    border-width: 3px;
+    border-width: 5px;
     width: 100px;
     margin-bottom: 20px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
 .headsets-text h1{
     font-size: 3.75rem;
@@ -240,9 +243,10 @@ header ul li a{
 .virtual-reality .virtual-reality-img{
     height: auto;
     width: 40%;
-    background-image: url('Images/dfdfdffff-min.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../Images/dfdfdffff-min.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    
 }
 
 .virtual-reality .virtual-reality-text{
@@ -429,17 +433,18 @@ header ul li a{
 .bad-for-brain-img {
     flex-grow: 3;
     flex-basis: 45%;
-    background-image: url('/Images/gfgg-min.jpg');
+    background-image: url('../Images/gfgg-min.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 /* bad for brain section end */
 
 /*  benefitss of virtual reality 3 start-> */
 .benefitss {
-    background-image: url('/Images/dfdfdfdfdfdfdf.jpg');
+    background-image: url('../Images/dfdfdfdfdfdfdf.jpg');
     background-repeat: no-repeat;
-    background-size: cover; padding: 100px 0;
+    background-size: 100% 100%;
+    padding: 100px 0;
 }
 .benefitss-div {
     background-color: white;
@@ -476,7 +481,7 @@ header ul li a{
 .education {
     display: flex;
     flex-direction: row;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .left {
     flex-basis: 50%;
@@ -484,9 +489,9 @@ header ul li a{
 }
 .left h2{
     letter-spacing: 2px;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 2.5rem;
-    margin: 35px auto 0;
+    margin: 25px auto 0;
     color: #654aff;
     line-height: 3rem;
 }
@@ -497,8 +502,71 @@ header ul li a{
     font-family: Raleway, sans-serif;
     padding: 20px 0;
 }
+.left h3 span {    
+    color: #654AFF;
+}
+.left h3 {
+    padding: 20px 0;
+}
+.left h3 a{
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+}
+.left h3 a:hover {
+    color: #654AFF;
+}
 .right {
     flex-basis: 50%;
     margin-left: 20px;
 }
+.right h1{
+    font-size: 3.75rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-family: Raleway, sans-serif;
+    padding: 25px 0 10px;
+    color: #654AFF;
+}
+.right h6{
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 20px auto 0;
+    color: #111111;
+}
 /* vr education end */
+
+/* footer section start */
+footer {
+    background-color: #654AFF;
+    color: white;
+    padding: 75px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+footer h1{
+    font-size: 3.7rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: Raleway, sans-serif;
+    color: white;
+}
+footer .social-icon{
+    padding: 15px;
+}
+
+footer .social-icon span{
+    font-size: 2rem;
+    padding: 15px;
+}
+footer hr {
+    border: 9px solid white;
+    width: 100px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 15px auto;
+}
+/* footer section end */
