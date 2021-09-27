@@ -1,0 +1,507 @@
+/* universal section start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+.container {
+    width: 72%;
+    margin: 0 auto;
+}
+.col-3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 65px;
+    border-radius: 15px;
+    position: relative;
+}
+.col-3:last-child {
+    margin-right: 0;
+}
+.freepik {
+    font-weight: 500;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: 2;
+    margin: 23px 0;
+    display: block;
+}
+.freepik a:hover{
+    text-decoration: none;
+    color:  #000000;
+}
+
+.button-more {
+    margin: 30px auto;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    border: 2px solid #654aff;
+    border-radius: 3px;
+    text-transform: none;
+    font-family: Poppins;
+    color: #3D3D3D;
+}
+.button-more:hover {
+    border-color: #b9b7c4;
+}
+/* universal section end */
+
+/* header section start */
+header {
+    height: 80px;
+    margin-top: 30px;
+}
+.img {
+    float: left;
+    padding-top: 20px;
+}
+.img img {
+    display: block;
+    margin-top: 20px;
+}
+ul {
+    float: right;
+    width: 30%;
+    height: 100vh;
+    background: #2c3e50;
+    position: absolute;
+    left: -100%;
+    text-align: center;
+    transition: 1s;
+    list-style: none;
+    padding-top: 30px;
+}
+header ul li {
+    margin-top: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.checkbtn {
+    float: right;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 80px;
+    cursor: pointer;
+
+}
+.fas:hover {
+   color: #654aff; /* I cant't apply hover effect */
+}
+
+#check {
+    display: none;
+}
+#check:checked ~ ul {
+    position: absolute;
+    left: 0;
+}
+/* header section end */
+
+/* headsets section start */
+.vr {
+    margin-left: 18%; /*for left margin*/
+} 
+.headsets {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.headsets-text {
+    display: flex;
+    flex-direction: column;
+   flex-basis: 35%;
+    margin-top: 150px;
+    font-family: Raleway, sans-serif;
+}
+.headsets-text hr {
+    border: 2px solid #654aff;
+    border-width: 3px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.headsets-text h1{
+    font-size: 3.75rem;
+    color: #654aff;
+    font-weight: 400;
+}
+.headsets-text p {
+    font-weight: 500;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: 2;
+    margin: 23px 0;
+}
+
+.headsets-text .read-more{
+    width: 50%;
+    padding: 15px;
+    background: #654aff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.headsets-text .read-more:hover {
+    background-color: transparent;
+    border: 2px solid gray;
+    color: gray;
+}
+
+.headsets .headsets-img {
+    flex-basis: 65%;
+    height: 85vh;
+    margin-left: 10px;
+}
+.headsets .headsets-img img{
+    width: 100%;
+    height: 100%;
+
+}
+/* headsets section end */
+
+/* benefits section start */
+.benefits {
+    background-color: #654aff;
+    color: white;
+    text-align: center;
+    padding: 25px 0 35px;
+}
+.benefits h1 {
+    font-size: 3.75rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: Raleway, sans-serif;
+    padding: 60px 0 10px;
+}
+.benefits p{
+    font-size: 1.25rem;
+    margin: 9px auto 0;
+    font-family: Raleway, sans-serif;
+}
+.for-div {
+    display: flex;
+    justify-content: space-between;
+    color: #9b5f77;
+    padding: 50px 0;
+}
+.benefits .col-3 .icon {
+    font-size: 2.2rem;
+    padding: 25px;
+    background-color: #F0EDFF;
+    border-radius: 100%;
+    position: absolute;
+    top: -7%;
+    left: 35%;
+    color: #654AFF;
+}
+.benefits  .mental-health  .icon{
+    padding: 25px 27px;
+}
+
+.col-3 h1 {
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin: 35px auto 0;
+    color: #654aff
+}
+.col-3 p {
+    color: #524b77;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 20px 0 0;
+    padding: 0 30px;
+}
+
+/* benefits section end */
+
+/* virtual reality section start */
+.virtual-reality {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 40px;
+}
+.virtual-reality .virtual-reality-img{
+    
+    height: auto;
+    flex-basis: 40%;
+   
+    background: url('/Images/dfdfdffff-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.virtual-reality .virtual-reality-text{
+    flex-basis: 60%;
+    padding: 40px;
+    margin: 0 0 0 15px;
+}
+.virtual-reality .virtual-reality-text h2{
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin: 35px auto 0;
+    color: #654aff
+}
+.virtual-reality .virtual-reality-text h1{
+    font-size: 3.75rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: Raleway, sans-serif;
+    padding: 30px 0 10px;
+    color: #3D3D3D;
+}
+.virtual-reality .virtual-reality-text p{
+    font-weight: 500;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: 2;
+    margin: 23px 0;
+}
+
+.virtual-reality .virtual-reality-text hr {
+   color: #f5eeee;
+   margin: 35px 0;
+   height: .1rem;
+   border-bottom: none;
+   border-left: none;
+   border-right: none;
+}
+.sample-text {
+    margin: 25px 0;
+}
+.sample-text .first-sample-text {
+    margin: 30px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.sample-text .first-sample-text .div-icon{
+    font-size: 2.2rem;
+    padding: 15px 22px;
+    background-color: #F0EDFF;
+    border-radius: 100%;
+    color: #654AFF;
+}
+.sample-text .first-sample-text .div-text{
+    width: 83%;
+    box-sizing: border-box;
+    padding-right: 70px;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+/* virtual reality section end */
+
+/* vr surprise 2 section start */
+.vr-surprise{
+    text-align: center;
+    margin: 60px 0;
+    padding-bottom: 50px;
+    background-color: #E5E5E5;
+}
+.vr-surprise h1 {
+    font-size: 3.75rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: Raleway, sans-serif;
+    padding: 60px 0 10px;
+    color: #654AFF;
+}
+.vr-surprise .container .row>p{
+    font-size: 1.25rem;
+    margin: 9px auto 0;
+    font-family: Raleway, sans-serif;
+}
+.vr-surprise .surprise{
+    padding: 25px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.vr-surprise .surprise .div{
+    background-color: white;
+    margin: 10px 0;
+    padding: 40px 50px 40px 90px;
+    line-height: 1.5rem;
+    word-wrap: break-word;
+    position: relative;
+    overflow: hidden;
+}
+.vr-surprise .surprise .div1{
+    background-color: #F2F2F2;
+}
+
+.vr-surprise .surprise .div1 p::before{
+    content: '1';
+    clear: both;
+    display: table;
+    position: absolute;
+    left: 20px;
+    font-size: 6rem;
+    font-weight: 300;
+    color: #654AFF;
+}
+.vr-surprise .surprise .div2 p::before{
+    content: '2';
+    clear: both;
+    display: table;
+    position: absolute;
+    left: 20px;
+    font-size: 6rem;
+    font-weight: 300;
+    color: #654AFF;
+}
+.vr-surprise .surprise .div3>p::before {
+    content: '3';
+    clear: both;
+    display: table;
+    position: absolute;
+    left: 20px;
+    font-size: 6rem;
+    font-weight: 300;    
+}
+.vr-surprise .surprise .div3{
+    background-color: #654AFF;
+    color: white;
+}
+/* vr surprise 2 section end */
+
+/* bad for brain section start */
+.bad-for-brain {
+    width: 90%;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-direction: row;
+}
+.bad-for-brain-text {
+    flex-grow: 2;
+    flex-basis: 55%;
+    padding: 0 60px;
+}
+.bad-for-brain-text .div-icon span{
+    font-size: 3rem;
+    padding: 10px 20px;
+    background-color: #F0EDFF;
+    border-radius: 100%;
+    color: #654aff;
+}
+.bad-for-brain-text h1{
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 3.5px;
+    font-family: Raleway, sans-serif;
+    padding: 30px 0 10px;
+    color: #3D3D3D;
+}
+.bad-for-brain-text p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin: 9px auto 0;
+    font-family: Raleway, sans-serif;
+}
+.bad-for-brain-text .bold {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin: 20px auto;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    letter-spacing: .7px;
+}
+.sp-button {
+    margin-bottom: 60px;
+    padding:  14px 30px;
+}
+.bad-for-brain-img {
+    flex-grow: 3;
+    flex-basis: 45%;
+    background-image: url('/Images/gfgg-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* bad for brain section end */
+
+/*  benefitss of virtual reality 3 start-> */
+.benefitss {
+    background-image: url('/Images/dfdfdfdfdfdfdf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; padding: 100px 0;
+}
+.benefitss-div {
+    background-color: white;
+    width: 50%;
+    padding: 45px 40px;
+}
+.benefitss-div h2{
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 35px auto 0;
+    color: #654aff;
+}
+.benefitss-div h1{
+    font-size: 3.75rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 4rem;
+    font-family: Raleway, sans-serif;
+    padding: 30px 0 10px;
+    color: #654aff;
+}
+.sp-freepik {
+    letter-spacing: 2.5px;
+    font-size: 1.125rem;
+    line-height: 2;
+    margin: 0;
+    display: block;
+}
+/* - benefitss of virtual reality 3 start */
+
+/* vr education start */
+.education {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+}
+.left {
+    flex-basis: 50%;
+    margin-right: 20px;
+}
+.left h2{
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 35px auto 0;
+    color: #654aff;
+    line-height: 3rem;
+}
+.left p{
+    font-size: 1rem;
+    line-height: 1.9rem;
+    margin: 9px auto 0;
+    font-family: Raleway, sans-serif;
+    padding: 20px 0;
+}
+.right {
+    flex-basis: 50%;
+    margin-left: 20px;
+}
+/* vr education end */
