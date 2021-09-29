@@ -87,7 +87,7 @@ header ul li a{
     font-size: 1.3rem;
     line-height: 2rem;
 }
-header ul li:hover a{
+header ul li a:hover{
     color: #2384df;
 }
 .checkbtn {
@@ -433,8 +433,7 @@ header ul li:hover a{
     padding:  14px 30px;
 }
 .bad-for-brain-img {
-    flex-grow: 3;
-    flex-basis: 45%;
+    width: 45%;
     background-image: url('../Images/gfgg-min.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -577,3 +576,371 @@ footer hr {
     margin: 15px auto;
 }
 /* footer section end */
+/* start media query for tablet and landscap*/
+@media all and (min-width: 669px) and (max-width: 1300px) , (orientation: landscape){
+    .container {
+        width: 90%;
+    }
+    /* header section start */
+header {
+        height: 80px;
+        margin-top: 10px;
+    }
+    /* header section end */
+
+    /* headsets section start */
+.vr {
+        margin: 5%;
+    }
+.headsets {
+    justify-content: space-between;
+}
+.headsets-text {
+        margin-top: 40px;
+    }
+.headsets-text h1 {
+        font-size: 2.5rem;
+        font-weight: 500;
+}  
+.headsets-text p {
+        margin: 15px 0; /*just change the margin*/
+ }
+.freepik {
+    margin: 0 0 15px;
+}
+ .headsets-text .read-more {
+    width: 60%;
+    padding: 8px 10px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.headsets .headsets-img {
+    flex-basis: 65%;
+    height: auto;
+    margin-left: 0;
+}
+    /* headsets section end */
+
+/* benefits section start */
+.benefits h1 {
+    font-size: 3rem;
+}
+
+.benefits h1 {
+    font-size: 1.5rem;
+}
+/* benefits section end */
+}
+
+
+/* end media query for tablet and landscap */
+
+/* start media query for phone and  */
+@media all and (max-width: 662px) {
+
+.container {
+    width: 85%;
+}
+/* header section start */
+header {
+    margin: 0;
+}
+header ul {
+    width: 55%;
+}
+/* header section end */
+
+/* start headset section */
+.vr {
+    margin: 0 5%;
+}
+.vr .headsets {
+    display: flex;
+    flex-direction: column;
+}
+.headsets-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin-top: 50px;
+    font-family: Raleway, sans-serif;
+}
+.headsets-text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.headsets-text p {
+    font-weight: 600;
+    margin: 15px 0;
+}
+.freepik {
+    font-weight: 600;
+    margin: 0;
+}
+.headsets-text .read-more {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.headsets .headsets-img {
+    flex-basis: 100%;
+    height: auto;
+    margin-left: 0;
+}
+/* end headset section */
+
+/* benefits section start */
+.benefits {
+    padding: 0;
+}
+.benefits h1 {
+    font-size: 2.5rem;
+    padding: 50px 0 10px;
+}
+.benefits p {
+    margin: 0;
+    font-weight: 200;
+}
+.for-div {
+    display: flex;
+    flex-direction: column;
+}
+.col-3 {
+    flex-basis: 100%;
+    margin: 30px 20px;
+}
+.benefits .col-3 .icon {
+    left: 38%;
+}
+.benefits h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 65px 0 10px;
+}
+.benefits p {
+    font-weight: 500;
+}
+.col-3 p {
+    line-height: 1.6rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 20px;
+}
+.col-3:last-child {
+    margin-right: 20px;
+}
+/* benefits section end */
+
+/* virtual reality section start */
+.virtual-reality {
+    flex-direction: column;
+    margin: 35px 0;
+}
+.virtual-reality .virtual-reality-img {
+    height: 60vh;
+    width: 100%;
+    background-image: url('../Images/dfdfdffff-min.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.virtual-reality .virtual-reality-text {
+    flex-basis: 100%;
+    padding: 0;
+    margin: 0;
+}
+.virtual-reality .virtual-reality-text h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 20px 0 10px;
+}
+.virtual-reality .virtual-reality-text p {
+    font-weight: 400;
+    margin: 0;
+}
+.freepik {
+    font-weight: 500;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: 2;
+    margin: 23px 0;
+    display: block;
+}
+.virtual-reality .virtual-reality-text hr {
+    width: 90%;
+}
+.sample-text {
+    margin: 0;
+}
+.sample-text .first-sample-text .div-icon {
+    padding: 25px;
+}
+.sample-text .first-sample-text .div-text {
+    width: 75%;
+    padding-right: 10px;
+    font-weight: 500;
+}
+/* virtual reality section end */
+
+/* surprising benefits start */
+.vr-surprise {
+    padding-bottom: 30px;
+}
+.vr-surprise h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.vr-surprise .surprise {
+    width: 90%;
+}
+.vr-surprise .surprise .div {
+    margin: 10px 0;
+    padding: 40px 15px 40px 70px;
+    text-align: justify;
+}
+.vr-surprise .surprise .div1 p::before {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    font-size: 4rem;
+}
+.vr-surprise .surprise .div2 p::before {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    font-size: 4rem;
+}
+.vr-surprise .surprise .div3 p::before {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    font-size: 4rem;
+}
+/* surprising benefits end */
+
+/* bad for brain section start */
+.bad-for-brain {
+    width: 100%;
+    margin: 0 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.bad-for-brain-text {
+    flex-basis: 100%;
+    padding: 0;
+}
+.bad-for-brain-text .div-icon span {
+    padding: 20px 25px;
+}
+.bad-for-brain-text h1 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.bad-for-brain-text p {
+    padding-right: 10px;
+    font-weight: 500;
+}
+.sp-button {
+    margin: 20px auto;
+    margin-bottom: 25px;
+    padding: 10px 30px;
+}
+.bad-for-brain-img {
+    width: 100%;
+    height: 50vh;
+}
+/* bad for brain section end */
+
+/* benefit section 3 start */
+.benefitss {
+    padding: 50px 0;
+    background-size: cover;
+    background-position: 75%;
+    height: 80vh;
+}
+
+.benefitss-div {
+    width: 80%;
+    margin-top: 60%;
+    padding: 30px 10px;
+}
+.benefitss-div h2 {
+    font-size: 1rem;
+    margin: 35px auto 12px;
+}
+.benefitss-div h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    font-family: Raleway, sans-serif;
+    padding: 5px 0;
+    color: #654aff;
+}
+.freepik {
+    margin: 0;
+}
+/* benefit seciton 3 end */
+
+/* education section start */
+.education {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0; 
+}
+.left {
+    flex-basis: 100%;
+    margin-right: 0;
+}
+.left h2 {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.left p {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 0;
+    padding: 20px 0;
+}
+.right {
+    flex-basis: 100%;
+    margin-left: 0;
+}
+.right h1 {
+    font-size: 2.1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/* education section end */
+
+/* footer start */
+footer {
+    padding: 20px 0;
+    margin-top: 50px;
+}
+footer h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+footer .social-icon {
+    padding: 10px;
+}
+footer .social-icon a {
+    font-size: 1.5rem;
+    padding: 8px;
+}
+footer hr {
+    border: 3px solid white;
+    margin: 5px auto;
+}
+/* footer end */
+}
